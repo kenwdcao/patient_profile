@@ -1,0 +1,19 @@
+::DATASET
+
+1 DM: SUBID 
+2 AE: SUBID AENUM AEDESC
+2.1 SD: SUBID |LABEL='Exposure'
+3 CH: SUBID 
+4 CPS: SUBID
+5 PCS: SUBID
+6 PR: SUBID PRRNUM
+7 PS: SUBID
+8 CM: SUBID
+20 PD: SUBID PDDTC | TEXTWHENNODATA='No Protocol Violation or Deviation'
+100 VISIT: SUBID DATE VISIT | TYPE=APPENDIX SUBJECTLEVEL=Y LABEL='Appendix 1: Subject Visit Date'
+
+
+
+::TITLEFOOTERS
+title j=r "^{style [foreground=green fontweight=bold] Hint: Alt + <-- (Left Arrow) to go back to last view; CRTL + Home to go back to Page 1}"; | CONTEXT=GLOBAL
+footnote j=l "[1]: Age is calculated as (Screening Date- Birthday + 1)/365.25."; | CONTEXT=GLOBAL

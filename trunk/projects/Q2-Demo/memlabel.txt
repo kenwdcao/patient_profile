@@ -1,0 +1,56 @@
+DM             Demographics                            
+IE             Informed Consent / Eligibility          
+DA             Study Drug Accountability               
+EX             Ibrutinib Dose Administration           
+DD             Study Drug Discontinuation              
+SE             Study Exit                              
+DR             Death Report                            
+WC             Withdrawal of Consent                   
+MH             Medical History                         
+MD1            MZL Disease History                     
+MD2            MZL Disease History (Continued)         
+TX_PRIOR_RX    Prior Systemic MZL Therapy              
+PS             Prior MZL Surgery                       
+RD             Prior MZL Radiation                     
+BS             B-Symptoms                              
+CM             Concomitant Medications                 
+SU1            Tobacco and Alcohol Use History         
+SU2            Tobacco and Alcohol Use History (Continu
+AE1            Adverse Event                           
+AE2            Adverse Event (Continued)               
+SP             Surgeries and Procedures                
+BP1            Bone Marrow Aspirate and Biopsy         
+BP2            Bone Marrow Aspirate and Biopsy (Continu
+SC             Central Lab Sample Collection for PK and
+ES             ECOG Performance Status                 
+HEM1           Hematology Local                        
+HEM2           Hematology Local (Continued)            
+CHEM1          Serum Chemistry Local                   
+CHEM2          Serum Chemistry Local (Continued)       
+COAG           Coagulation Local                       
+URINE          Urinalysis Local                        
+SERO           Serology Local                          
+IMM1           Immunology                              
+IMM2           Immunology (Continued)                  
+PREGNANCY      Pregnancy Test                          
+PE1            Physical Exam                           
+PE2            Physical Exam (Continued)               
+VS             Vital Signs                             
+EYE            Eye-Related Symptoms                    
+LD             Electrocardiogram                       
+TT             Archived Tumor Tissue                   
+TB             Optional Tumor Tissue Biopsy            
+TL1            Target Lesion Assessment                
+TL2            Target Lesion Assessment Comment        
+NN             Nodal Non-Target Lesion Assessment      
+NE             Extranodal Non-Target Lesion Assessment 
+AM1            Other Malignancy                        
+AM2            Other Malignancy (Continued)            
+PT1            Imaging by PET                          
+PT2            Imaging by PET (Individual Sites)       
+CT1            Imaging by CT/MRI                       
+CT2            Imaging by CT/MRI (Continued)           
+RS1            Response Evaluation                     
+RS2            Response Evaluation (Mode of Progression
+NTX            New Anticancer Therapy                  
+SS             Survival Status                         

@@ -1,0 +1,39 @@
+::DATASET
+
+1 DM: SUBJECT | LABEL=Demographics 
+2 MH: subject visitnum GRPINSNO | LABEL="Medical History" 
+3 DH: SUBJECT | LABEL="Disease History"
+4 SD: SUBJECT VISITNUM | LABEL='Surgery Details'
+5 PE: SUBJECT VISITNUM VISITN GRPINSNO | LABEL='Abnormal Physical Examination'
+6 VS: SUBJECT VISITNUM VISITN | LABEL='Vital Signs' 
+7 VSD: SUBJECT VISITNUM __ORD | LABEL='Vital Signs (Dose)'
+10 ECG: SUBJECT VISITNUM VISITN | LABEL='12-Lead Electrocardiogram' 
+11 MP: SUBJECT VISITNUM VISITN __ORD | LABEL='Meal Procedures'
+14 RCV: SUBJECT VISITNUM VISITN GRPINSNO | LABEL='GI Recovery Events' 
+14.5 PDBM: SUBJECT | LABEL='Post Discharge Bowel Movement'
+15 HS: SUBJECT VISITNUM VISITN | LABEL='Hospitalization Summary'
+'16 FIGURE: SUBJECT | LABEL='Figure: Adverse Event & Hospitalization Summary' BORDERWIDTH=0  STARTPAGE=Y
+17 CLTC1: SUBJECT VISITNUM VISITN | LABELINTOC='Clinical Laboratory Tests: Chemistry' LABEL='Clinical Laboratory Tests: Chemistry, Part 1' 
+18 CLTC2: SUBJECT VISITNUM VISITN | LABEL='Clinical Laboratory Tests: Chemistry, Part 2' INCLUDEINTOC=N
+19 CLTH:  SUBJECT VISITNUM VISITN | LABEL='Clinical Laboratory Tests: Hematology' 
+20 CLTU1: SUBJECT VISITNUM VISITN | LABELINTOC='Clinical Laboratory Tests: Urinalysis' LABEL='Clinical Laboratory Tests: Urinalysis, Part 1' 
+21 CLTU2: SUBJECT VISITNUM VISITN | LABEL='Clinical Laboratory Tests: Urinalysis, Part 2' INCLUDEINTOC=N
+30 SDA: SUBJECT __CRFINSNO  | LABEL='Study Drug Administration'
+31 AE: SUBJECT __CRFINSNO aetxt | LABEL='Adverse Event'
+32 CM: SUBJECT __CRFINSNO CMTEXT | LABEL='Concomitant Medications'
+35 DS: SUBJECT | LABEL='Study Completion/Discontinuation'
+37 VISITIDX: visit | TYPE=APPENDIX SUBJECTLEVEL=N LABEL='Appendix 1 : Visit Name Abbreviation'
+38 CMTCHEM: subject lbctests | TYPE=APPENDIX SUBJECTLEVEL=Y LABEL='Appendix 2.1 : Lab Result Comments - Chemistry' ANCHOR=apd2chem
+39 CMTHEMA: subject lbhtests | TYPE=APPENDIX SUBJECTLEVEL=Y LABEL='Appendix 2.2 : Lab Result Comments - Hematology' ANCHOR=apd2hem
+40 CMTURIN: subject lbutests | TYPE=APPENDIX SUBJECTLEVEL=Y LABEL='Appendix 2.3 : Lab Result Comments - Urinalysis' ANCHOR=apd2urin
+41 REFRANGE: item | TYPE=APPENDIX SUBJECTLEVEL=N LABEL='Appendix 3 : Reference Range of ECG and Vital Signs'
+
+
+
+::TITLEFOOTERS
+title j=r "^{style [foreground=green fontweight=bold] Hint: Alt + <-- (Left Arrow) to go back to last view; CRTL + Home to go back to Page 1}"; | CONTEXT=GLOBAL
+footnote j=l "[1]: See Appendix 1"; | CONTEXT=MAIN
+footnote j=l "[2]: MR=Monitored Reviewed, M=Monitored, CR=Complete Reviewed, C=Complete, I=Incomplete, PM=Partial Monitored"; | CONTEXT=MAIN
+footnote j=l "[3]: Age is calculated as (Informed Consent Date- Birthday + 1)/365.25."; | CONTEXT=GLOBAL
+footnote j=l " "; | CONTEXT=MAIN
+footnote j=l "NOTE:Number in ^{style [foreground=&abovecolor fontweight=bold]&abovecolor}; Above normal range; Number in ^{style [foreground=&belowcolor fontweight=bold]&belowcolor}; Lower than normal range; Number in ^{style [foreground=&norangecolor fontweight=bold]&norangecolor}; Without lower and upper limit; Number with ^{style [textdecoration=underline]underline} has hyperlink to comments; CS: Clinical Significant, NCS: Not Clinical Significant"; | CONTEXT=MAIN

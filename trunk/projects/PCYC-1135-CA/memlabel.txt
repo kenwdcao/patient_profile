@@ -1,0 +1,67 @@
+AE1                 Adverse Event
+AE2                 Adverse Event (Continued)
+BH1                 Disease History - Breast Cancer
+BH2                 Disease History - Breast Cancer
+CM1                 Concomitant Medication
+CM2                 Concomitant Medication (Continued)
+COAGL               Coagulation (Local Lab)
+CRCL                Creatinine Clearance (Local Lab)
+DEATH               Death Report
+DM                  Demographic
+DS                  Study Exit
+ECOG                ECOG
+EG                  Electrocardiogram
+ENROLL              Subject Enrollment
+EOT                 End of Treatment - Visit Prompt
+EX                  Study Drug Administration - Ibrutinib
+EXMEDI              Study Drug Administration - MEDI4736
+HEMATL1             Hematology (Local Lab)
+HEMATL2             Hematology (Local Lab) (Continued)
+HEPATL              Hepatitis (Local Lab)
+IC                  Informed Consent
+IMG                 Imaging Assessment
+LSNEW               New Lesion Assessment
+LSNTG1              Non-Target Lesion Assessment Baseline
+LSNTG2              Non-Target Lesion Assessment
+LSTG1               Target Lesion Assessment Baseline
+LSTG2               Target Lesion Assessment
+MH                  Medical History
+NH1                 Disease History - NSCLC
+NH2                 Disease History - NSCLC
+PDBTK1              Ibrutinib Pharmacodynamics / Biomarkers - Full
+PDBTK2              Ibrutinib Pharmacodynamics / Biomarkers - Partial
+PDMEDI1             MEDI4736 Pharmacodynamics - Full
+PDMEDI2             MEDI4736 Pharmacodynamics - Partial
+PE                  Physical Exam
+PEFU                Physical Exam - Follow Up
+PH1                 Disease History - Pancreatic Cancer
+PH2                 Disease History - Pancreatic Cancer
+PKBTK1              Ibrutinib Pharmacokinetics - Full
+PKBTK2              Ibrutinib Pharmacokinetics - Partial
+PKMEDI1             MEDI4736 Pharmacokinetics - Full
+PKMEDI2             MEDI4736 Pharmacokinetics - Partial
+PREGL               Pregnancy Test (Local Lab)
+PRIDRG              Prior Cancer Therapy
+PRIRAD              Prior Cancer Radiation
+PRISG               Prior Cancer Surgeries and Procedures
+RFSTDTC             Reference Start Date for --DY
+RSYN1               Response Evaluation Prompt
+RSYN2               Response Follow-Up Prompt
+SCHEML1             Serum Chemistry (Local Lab)
+SCHEML2             Serum Chemistry (Local Lab) (Continued)
+SG                  Surgeries and Procedures
+SU                  Tobacco and Alcohol History
+SUBDRG              Subsequent Anti-Cancer Drug Treatment
+SUBRAD              Subsequent Anti-Cancer Radiation
+SURV                Survival Status
+SURVYN              Survival Follow-Up Prompt
+TBX                 Tumor Biopsy
+TERM                Treatment Termination Prompt
+TSHL                Thyroid Stimulating Hormone (Local Lab)
+TUMKRL1             Tumor Markers (Local) - Breast Cancer
+TUMKRL2             Tumor Markers (Local) - NSCLC
+TUMKRL3             Tumor Markers (Local) - Pancreatic Cancer
+UNSCHED             Unscheduled Visit Assessments
+URINL               Urinalysis (Local Lab)
+VISIT               Date of Visit
+VS                  Vital Signs & Weight/Height

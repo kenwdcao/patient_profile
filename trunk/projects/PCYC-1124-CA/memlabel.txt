@@ -1,0 +1,69 @@
+AE1            Adverse Event
+AE2            Adverse Event (Action Taken)
+BP1            Bone Marrow Aspirate and Biopsy
+BP2            Bone Marrow Aspirate and Biopsy (Continued)
+CANCTX         Subsequent Antineoplastic Therapy
+CH             DLBCL Disease History
+CM             Concomitant Medications / Products
+CMPS           Prior DLBCL Surgery
+CMRAD          Prior DLBCL Radiation
+CMRX1          Prior DLBCL Therapy Prompt
+CMRX2          Prior DLBCL Therapy
+CMRX3          Prior DLBCL Therapy (Continued)
+CT             Imaging by CT/MRI
+DEATH          Death
+DISCBTK        Study Drug Discontinuation-Ibrutinib
+DISCEPOC       Study Drug Discontinuation-EPOCH-R
+DM             Demographics
+DSEOT          Follow-Up Visit Prompt
+DSEXIT         Study Exit
+ECHO           ECHOCARDIOGRAM / MUGA
+ECOG           ECOG
+EG1            Electrocardiogram - Assessment
+EG2            Electrocardiogram - Triple Measurements
+EXBTK          Ibrutinib Dose Administration
+EXCYC          Cyclophosphamide Dose Administration
+EXDOX          Doxorubicin Dose Administration
+EXETO          Etoposide Dose Administration
+EXLEN          Lenalidomide Dose Administration
+EXPEG          Pegfilgrastim Dose Administration
+EXPRED         Prednisone Dose Administration
+EXRIT          Rituximab Dose Administration
+EXVIN          Vincristine Dose Administration
+IE             Informed Consent
+LBBIO          Biomarker Sample (Central Lab)
+LBCHEML1       Serum Chemistry (Local Lab)
+LBCHEML2       Serum Chemistry (Local Lab) (Continued)
+LBCOAGL        Coagulation Studies (Local Lab)
+LBCREATL       Creatinine Clearance (Local Lab)
+LBHEML1        Serum Hematology (Local Lab)
+LBHEML2        Serum Hematology (Local Lab) (Continued)
+LBHEP          Hepatitis Serologies (Local Lab)
+LBHEPA         Hepatitis Serologies (Amendment)
+LBPREGL        Pregnancy Test
+LBTB           Tumor Biopsy for Eligibility
+LBTSHL         Thyroid Stimulating Hormones (Local Lab)
+LBURINE        Urinalysis (Local Lab)
+MH             Medical History
+ML             Other Malignancy
+NE1            Extranodal Non-Target Lesion Assessment
+NE2            Extranodal Non-Target Lesion Assessment Comment
+NN1            Nodal Non-Target Lesion Assessment
+NN2            Nodal Non-Target Lesion Assessment Comment
+PE1            Physical Exam at Baseline
+PE2            Physical Exam at Baseline (Continued)
+PE3            Physical Exam at Post-Baseline
+PK             Pharmacokinetics (PK)
+PT1            Imaging by PET
+PT2            Imaging by PET (Individual Sites)
+RECONS         Subject Re-Consent
+RFSTDTC        Reference Start Date
+RS1            Response Evaluation
+RS2            Response Evaluation (Mode of Progression)
+SCHED          Scheduled Study Visit Prompt
+STAGING        Staging
+SURVIVAL       Survival Status
+TB             Optional Tumor Biopsy Sample
+TL1            Target Lesion Assessment
+TL2            Target Lesion Assessment Comment
+VS             Vital Signs
