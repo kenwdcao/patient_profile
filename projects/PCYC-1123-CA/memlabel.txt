@@ -1,0 +1,75 @@
+AE1                 Adverse Event
+AE2                 Adverse Event (Continued)
+AM1                 Other Malignancy
+AM2                 Other Malignancy (Continued)
+BP1                 Bone Marrow Aspirate and Biopsy
+BP2                 Bone Marrow Aspirate and Biopsy (Continued)
+CH                  DLBCL Disease History
+CM1                 Concomitant Medications / Products
+CM2                 Concomitant Medications / Products(Continued)
+CMRAD               Prior DLBCL Radiation
+CMRX1               Prior DLBCL Therapy Prompt
+CMRX2               Prior DLBCL Treatment
+CMRX3               Prior DLBCL Treatment (Continued)
+CR                  Suspected CR Visit Prompt
+CT                  Imaging by CT/MRI
+DISC1               Study Drug Discontinuation - Ibrutinib
+DISC2               Study Drug Discontinuation - Rituximab
+DISC3               Study Drug Discontinuation - Lenalidomide
+DLT                 DLT Assessment
+DM                  Demographic
+DS1                 Study Exit
+DS2                 Death Report
+DSEOT               End of Treatment Visit Prompt
+ECOG                ECOG
+EG1                 Electrocardiogram - (Screening)
+EG2                 Electrocardiogram - (Screening) (Continued)
+EG3                 Electrocardiogram - (End of Treatment- Single Measurement)
+EG4                 Electrocardiogram - (End of Treatment- Single Measurement) (Continued)
+ENROLL              Treatment Assignment
+EX                  First Dose Study Drug
+EXBTK               Ibrutinib Dose Administration
+EXLEN               Lenalidomide Dose Administration
+EXRIT1              In-Clinic Administration of Rituximab IV
+EXRIT2              In-Clinic Administration of Rituximab IV (Continued)
+FU                  Long Term Follow-Up Visit Prompt
+IE                  Informed Consent
+LBCHEM1             Serum Chemistry (Local Lab)
+LBCHEM2             Serum Chemistry (Local Lab, Continued)
+LBCOAG              Coagulation Studies (Local Lab)
+LBCREAT             Creatinine Clearance
+LBHEM1              Hematology (Local Lab)
+LBHEM2              Hematology (Local Lab, Continued)
+LBSER               Hepatitis Serologies (Local Lab)
+LBTHY               Thyroid Stimulating Hormone (Local Lab)
+LBURINE             Urinalysis (Local Lab)
+MH                  Medical History
+NE1                 Extranodal Non-Target Lesion Assessment
+NE2                 Extranodal Non-Target Lesion Assessment Comment
+NN1                 Nodal Non-Target Lesion Assessment
+NN2                 Nodal Non-Target Lesion Assessment Comment
+PDSUSPEC            Suspected Disease Progression Prompt
+PE1                 Physical Exam at Baseline
+PE2                 Physical Exam at Baseline (Continued)
+PE3                 Physical Exam at Post-Baseline
+PE4                 Physical Exam at Post-Baseline (Continued)
+PK                  Sample Collection
+PS                  Prior DLBCL Surgery
+PT1                 Imaging by PET
+PT2                 Imaging by PET (Individual Sites)
+QLAB1               T/B/NK Cell Counts (Central Lab)
+QLAB2               T/B/NK Cell Counts (Central Lab, Continued)
+RFSTDTC             Reference Start Date for --DY
+RS1                 Response Evaluation
+RS2                 Response Evaluation (Mode of Progression)
+SCHED               Scheduled Study Visit Prompt
+STAGING             Staging
+SURGHX1             Surgeries and Procedures Prompt
+SURGHX2             Surgeries and Procedures
+TB1                 Optional Tumor Tissue Substudy Consent
+TB2                 Optional Tumor Tissue Sample (Pre-Treatment)
+TB3                 Optional Tumor Tissue Sample (Post-Progression)
+TL1                 Target Lesion Assessment
+TL2                 Target Lesion Assessment Comment
+TX                  Subsequent Anti-Cancer Therapy
+VS                  Vital Signs
