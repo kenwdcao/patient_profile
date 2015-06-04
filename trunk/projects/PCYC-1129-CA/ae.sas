@@ -11,9 +11,26 @@
 
 %include '_setup.sas';
 
+** Ken Cao on 2015/06/04: Use AE as source dataset, get PT/SOC from AE_CODED;
+data _ae0;
+    length EDC_ROWGUID $36 AEDECOD AEBODSYS $200;
+    if _n_ = 1 then do;
+        declare hash h (dataset:'source.ae_coded');
+        rc = h.defineKey('EDC_ROWGUID');
+        rc = h.defineData('AEDECOD', 'AEBODSYS');
+        rc = h.defineDone();
+        call missing(EDC_ROWGUID, AEDECOD, AEBODSYS);
+    end;
+    set source.ae;
+    rc = h.find();
+    drop rc;
+run;
+
+
+
 data ae0;
    length subject $13;
-    set source.ae_coded(rename =(EDC_TreeNodeID = __EDC_TreeNodeID  EDC_EntryDate = __EDC_EntryDate));
+    set _ae0(rename =(EDC_TreeNodeID = __EDC_TreeNodeID  EDC_EntryDate = __EDC_EntryDate));
     %subject;   
 run;
 

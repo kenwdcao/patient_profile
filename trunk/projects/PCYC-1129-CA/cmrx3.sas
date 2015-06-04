@@ -41,26 +41,26 @@ data cmrx2;
     %concatDY(rxstdtc);
     %concatDY(rxendtc);
 
-	if rxtrtoth^="" then rxtrt=strip(rxtrt)||": " ||strip(rxtrtoth);
-/*	if  PreferredDrugName_RXTRTOTH^="" then PreferredDrugName_RXTRT=strip(PreferredDrugName_RXTRT)||": " ||strip(PreferredDrugName_RXTRTOTH);*/
+    if rxtrtoth^="" then rxtrt=strip(rxtrt)||": " ||strip(rxtrtoth);
+/*  if  PreferredDrugName_RXTRTOTH^="" then PreferredDrugName_RXTRT=strip(PreferredDrugName_RXTRT)||": " ||strip(PreferredDrugName_RXTRTOTH);*/
 /*   */
     ** Frequency pecific Days;
-	label rxfreqd ='Frequency Specific Days';
-	if  rxfreqd1="" and rxfreqd2="" and rxfreqd3="" and rxfreqd4="" and  rxfreqd5="" and rxfreqd6="" and rxfreqd7="" 
+    label rxfreqd ='Frequency Specific Days';
+    if  rxfreqd1="" and rxfreqd2="" and rxfreqd3="" and rxfreqd4="" and  rxfreqd5="" and rxfreqd6="" and rxfreqd7="" 
     then rxfreqd=""; else rxfreqd=cat(",", of rxfreqd1-rxfreqd7);
 run;
 
-proc sort data=cmrx2; by subject rxstdtc rxendtc rxtrt ;run;
+proc sort data=cmrx2; by subject rxstdtc rxendtc rxtrt; run;
 
 data pdata.cmrx3(label='Systemic Glucocorticoid Therapy');
     retain __EDC_TreeNodeID __EDC_EntryDate subject __visit __VISDAY __rxcat rxtrt  rxstdtc rxendtc rxdose rxdoseu rxfreq rxfreqo rxfreqd rxchange;
     keep __EDC_TreeNodeID __EDC_EntryDate subject __visit __VISDAY __rxcat rxtrt rxstdtc rxendtc rxdose rxdoseu rxfreq rxfreqo rxfreqd rxchange;
     set cmrx2;
-/*	 label PreferredDrugName_RXTRT="Preferred Drug Name"*/
-	 label rxdoseu="Unit"
+/*   label PreferredDrugName_RXTRT="Preferred Drug Name"*/
+     label rxdoseu="Unit"
      rxfreq="Frequency"
      rxfreqo="Other Frequency, specify"
-	 rxchange="Does this represent a change in dose from last visit?"
+     rxchange="Does this represent a change in dose from last visit?"
      ;
 run;
 
