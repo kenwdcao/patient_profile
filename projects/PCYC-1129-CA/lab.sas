@@ -371,11 +371,9 @@ proc sql;
     from lbrange0
     where 0;
 
-    /* 
     insert into lbrangec (lbcat, lbtest, lbstresu, sex, agelow, agehigh, lbstnrlo, lbstnrhi)
-    values('URINALYSIS', 'Specific Gravity', '', 'Female', 0, 1000, 1.002, 1.03)
-    values('URINALYSIS', 'Specific Gravity', '', 'Male', 0, 1000, 1.002, 1.03)
-    */
+    values('HEMATOLOGY', 'Neutrophils', '10^9/L', 'Female', 0, 150, 1.8, 6.8)
+    values('HEMATOLOGY', 'Neutrophils', '10^9/L', 'Male', 0, 150, 1.8, 8)
     ;
 quit;
 
@@ -618,7 +616,7 @@ data pdata.lbhem1(label='Hematology (Local Lab)');
     where rawcat='HEMATOLOGY (LOCAL)';
 run;
 
-data pdata.lbhem2(label='Hematology (Local Lab)');
+data pdata.lbhem2(label='Hematology (Local Lab) (Continued)');
     retain __edc_treenodeid __edc_entrydate subject __ord visit2 lbdtc lbtmc lbtmunk lbcode mono eos baso neutb lbacelyn lbacelsp;
     keep __edc_treenodeid __edc_entrydate subject __ord visit2 lbdtc lbtmc lbtmunk lbcode  mono eos baso neutb lbacelyn lbacelsp;
     set t_lab3;

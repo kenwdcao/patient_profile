@@ -29,4 +29,7 @@
 
     define aeacnoth / style(column) = [width=15%];
 %end;
+%else %if %upcase(&dset) = PE3 %then %do; 
+    define visit2 / style(column) = [width=10%];
+%end;
 %mend prt_exception;
