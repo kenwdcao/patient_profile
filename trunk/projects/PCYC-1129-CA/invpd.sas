@@ -30,7 +30,7 @@ data invpd1;
     criteria="Skin (percent of body surface) e - s = 25?"; 
     DATE=PDSKDTC; 
     output;
-    criteria="Eye s – e >= 5 mm?"; 
+    criteria="Eye s - e >= 5 mm?"; 
     DATE=PDEYEDTC; 
     output;
     criteria="Mouth (15point Schubert scale) e - s >= 3?"; 
