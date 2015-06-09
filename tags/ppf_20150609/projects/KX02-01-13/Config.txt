@@ -1,0 +1,16 @@
+::DATASET
+1 DM: SUBJID
+2 MH: SUBJID MHSPID
+3 AE: SUBJID AESTDY AETERM AEENDY
+4 CM: SUBJID CMTRT CMSTDY CMENDY
+5 EOS: SUBJID 
+6 VS: SUBJID VISIT
+7 EG: SUBJID ECGDY
+  
+
+
+
+::TITLEFOOTERS
+footnote j=l "[1] Age is calculated as (Informed Consent Date - Birth Date + 1)/365.25."; | CONTEXT=GLOBAL
+footnote j=l "[2] CTCAE Code:  Grade 1= Mild AE, Grade 2= Moderate AE, Grade 3= Severe AE, Grade 4= Life Threatening or disabling AE, Grade 5= Death."; | CONTEXT=MAIN
+footnote j=l "[3] Exposure data is not available."; | CONTEXT=MAIN
