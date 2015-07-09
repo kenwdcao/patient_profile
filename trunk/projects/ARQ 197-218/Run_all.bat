@@ -1,9 +1,0 @@
-start /w sas.exe -sysin demog
-start /w sas.exe -sysin ref_range
-start /w sas.exe -sysin ae
-start /w sas.exe -sysin lblf
-start /w sas.exe -sysin recist
-start /w sas.exe -sysin vs
-start /w sas.exe -sysin eg
-start /w sas.exe -sysin target
-start /w sas.exe -sysin ntarget
