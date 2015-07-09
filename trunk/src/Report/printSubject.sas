@@ -114,7 +114,6 @@ data _cover;
     line = ' '; output;
     line = ' '; output;
     line = ' '; output;
-    line = ' '; output;
     %if &displayQ2InCoverPage = Y %then %do;
     line = "&escapeChar.S={fontsize=12pt}DESIGNED AND PRODUCED BY Q2"; output;
     %end;
