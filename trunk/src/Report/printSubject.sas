@@ -204,7 +204,7 @@ title; footnote;
         %let varsinnew = &allval;
 
 
-        %subset(indata=&PDATABKLIBRF..&dset,subject=&subj);
+        %subset(indata=&PDATABKLIBRF..&dset,subject=&subj, getvarlbl=&getvarlbl);
 
         proc sql;
             create table __prtdel as
